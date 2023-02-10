@@ -1,24 +1,25 @@
 {
-    "name": ":vendor_slug/:package_slug",
-    "description": ":package_description",
+    "name": "maaz1n/filament-icon-toggle-column",
+    "description": "This is my package filament-icon-toggle-column",
     "keywords": [
-        ":vendor_name",
+        "maaz1n",
         "laravel",
-        ":package_slug"
+        "filament-icon-toggle-column"
     ],
-    "homepage": "https://github.com/:vendor_slug/:package_slug",
+    "homepage": "https://github.com/maaz1n/filament-icon-toggle-column",
     "license": "MIT",
     "authors": [
         {
-            "name": ":author_name",
-            "email": "author@domain.com",
+            "name": "maazin",
+            "email": "ahmedmaazin55@gmail.com",
             "role": "Developer"
         }
     ],
     "require": {
         "php": "^8.1",
-        "spatie/laravel-package-tools": "^1.14.0",
-        "illuminate/contracts": "^9.0"
+        "filament/filament": "^2.16",
+        "illuminate/contracts": "^9.0",
+        "spatie/laravel-package-tools": "^1.14.0"
     },
     "require-dev": {
         "laravel/pint": "^1.0",
@@ -35,13 +36,12 @@
     },
     "autoload": {
         "psr-4": {
-            "VendorName\\Skeleton\\": "src",
-            "VendorName\\Skeleton\\Database\\Factories\\": "database/factories"
+            "Maaz1n\\FilamentIconToggleColumn\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "VendorName\\Skeleton\\Tests\\": "tests"
+            "Maaz1n\\FilamentIconToggleColumn\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -61,11 +61,8 @@
     "extra": {
         "laravel": {
             "providers": [
-                "VendorName\\Skeleton\\SkeletonServiceProvider"
-            ],
-            "aliases": {
-                "Skeleton": "VendorName\\Skeleton\\Facades\\Skeleton"
-            }
+                "Maaz1n\\FilamentIconToggleColumn\\FilamentIconToggleColumnServiceProvider"
+            ]
         }
     },
     "minimum-stability": "dev",
