@@ -1,6 +1,13 @@
 <?php
 
-// config for Maaz1n/FilamentIconToggleColumn
 return [
+    'defaults' => [
+        'on-icon' => 'heroicon-s-check-circle',
 
+        'off-icon' => 'heroicon-s-check-circle',
+
+        'on-color' => null,
+
+        'off-color' => null,
+    ],
 ];
